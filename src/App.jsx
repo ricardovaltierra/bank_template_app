@@ -13,6 +13,20 @@ const App = () => (
         'Hero Section'
       </div>
     </div>
+
+    <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
+      <div className={`${styles.boxWidth}`}>
+        {/* As in Hero and Navbar, these are going to be components */}
+        Stats
+        Bussiness
+        Billing
+        CardDeal
+        Testimonials
+        Clients
+        CTA
+        Footer
+      </div>
+    </div>
   </div>
 );
 
